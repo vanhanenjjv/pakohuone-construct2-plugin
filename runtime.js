@@ -73,13 +73,13 @@ cr.plugins_.pakohuone = function(runtime)
 	// Actions
 	function Acts() {};
 	
-	Acts.prototype.UnlockEvent = function ()
+	Acts.prototype.CompleteLevel = function ()
 	{
 		const message = {
 			pakohuone: true,
 			type: 'Event',
 			data: {
-				name: 'Unlock',
+				name: 'LevelCompleted',
 				parameter: this.runtime.projectName
 			}
 		};

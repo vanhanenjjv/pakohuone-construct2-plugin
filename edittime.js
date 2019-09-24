@@ -65,7 +65,7 @@
 //			 description,		// appears in event wizard dialog when selected
 //			 script_name);		// corresponding runtime function name
 
-AddAction(1, af_none, "Unlock", "Pakohuone", "Unlock", "Notify Pakohuone that the level has been completed.", "UnlockEvent");
+AddAction(1, af_none, "Complete level", "Pakohuone", "Complete level", "Notify Pakohuone that the level has been completed.", "CompleteLevel");
 
 ////////////////////////////////////////
 // Expressions
